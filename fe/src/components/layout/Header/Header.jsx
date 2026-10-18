@@ -33,8 +33,7 @@ function Header() {
           className="header__logo"
           onClick={closeMenu}
         >
-          <strong>PRIME</strong>
-          <span>FURNITURE</span>
+          <strong>E-Com</strong>
         </Link>
 
         <nav
@@ -56,13 +55,6 @@ function Header() {
             onClick={closeMenu}
           >
             Бүтээгдэхүүн
-          </NavLink>
-
-          <NavLink
-            to="/custom-order"
-            onClick={closeMenu}
-          >
-            Захиалгат буйдан
           </NavLink>
 
           <NavLink

@@ -1,0 +1,37 @@
+/* src/components/home/PromoBanner.css */
+
+.promo-banner {
+  min-height: 480px;
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.35),
+      rgba(0, 0, 0, 0.35)
+    ),
+    url("/images/promo.jpg") center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.promo-content p {
+  font-size: 11px;
+  letter-spacing: 3px;
+}
+
+.promo-content h2 {
+  font-size: clamp(35px, 5vw, 65px);
+  font-weight: 400;
+  line-height: 1;
+  margin: 25px 0 35px;
+}
+
+.promo-content a {
+  display: inline-block;
+  padding: 14px 30px;
+  background: white;
+  color: #111;
+  text-decoration: none;
+  font-size: 13px;
+}

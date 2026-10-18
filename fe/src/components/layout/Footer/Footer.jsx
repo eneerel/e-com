@@ -23,16 +23,11 @@ function Footer() {
               to="/"
               className="footer__logo"
             >
-              PRIME
-
-              <span>
-                FURNITURE
-              </span>
+              E-COM
             </Link>
 
             <p>
-              Таны орон зайд зориулсан
-              дотоодын үйлдвэрлэл.
+             
             </p>
 
           </div>
@@ -51,10 +46,6 @@ function Footer() {
               Бүтээгдэхүүн
             </Link>
 
-            <Link to="/custom-order">
-              Захиалгат буйдан
-            </Link>
-
             <Link to="/about">
               Бидний тухай
             </Link>
@@ -69,7 +60,7 @@ function Footer() {
 
             <a href="tel:80500125">
               <Phone size={16} />
-              80500125
+              123456789
             </a>
 
             <p>
@@ -84,7 +75,7 @@ function Footer() {
         <div className="footer__bottom">
 
           <p>
-            © 2026 PRIME Furniture.
+            © 2026 E-COM.
             All rights reserved.
           </p>
 
